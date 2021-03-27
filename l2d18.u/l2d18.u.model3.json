@@ -1,0 +1,177 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "l2d18.u.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "l2d18.u.physics3.json",
+    "Motions": {
+      "Tap#1": [
+        {
+          "Name": "haixiu",
+          "File": "motions/Mgirl06_haixiu_a.motion3.json"
+        },
+        {
+          "Name": "baoxiong",
+          "File": "motions/Mgirl06_baoxiong.motion3.json"
+        },
+        {
+          "Name": "gouwudai",
+          "File": "motions/Mgirl06_gouwudai.motion3.json"
+        },
+        {
+          "Name": "lahua",
+          "File": "motions/Mgirl06_lahua.motion3.json"
+        },
+        {
+          "Name": "haqi",
+          "File": "motions/Mgirl06_haqi.motion3.json"
+        },
+        {
+          "Name": "jingxiu",
+          "File": "motions/Mgirl06_jingxiu.motion3.json"
+        },
+        {
+          "Name": "jingya",
+          "File": "motions/Mgirl06_jingya.motion3.json"
+        },
+        {
+          "Name": "hua1",
+          "File": "motions/Mgirl06_shishenzhuanquan1.motion3.json"
+        },
+        {
+          "Name": "hua2",
+          "File": "motions/Mgirl06_shishenzhuanquan2.motion3.json"
+        },
+        {
+          "Name": "hua3",
+          "File": "motions/Mgirl06_shishenzhuanquan3.motion3.json"
+        },
+        {
+          "Name": "weixiao",
+          "File": "motions/Mgirl06_weixiao.motion3.json"
+        },
+        {
+          "Name": "xingli",
+          "File": "motions/Mgirl06_xingli.motion3.json"
+        },
+        {
+          "Name": "yaotou",
+          "File": "motions/Mgirl06_yaotou.motion3.json"
+        },
+        {
+          "Name": "motouyihuo",
+          "File": "motions/Mgirl06_motouyihuo_a.motion3.json"
+        }
+      ],
+      "Idle#1": [
+        {
+          "Name": "stand",
+          "File": "motions/Mgirl06_stand.motion3.json"
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {
+      "Enabled": true
+    },
+    "ParamLoop": {},
+    "KeyTrigger": {
+      "Enabled": true
+    },
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "hua3",
+      "Id": "D_PSD_01",
+      "Motion": "Tap#1:hua3"
+    },
+    {
+      "Name": "xiong",
+      "Id": "D_PSD_370",
+      "Motion": "Tap#1:baoxiong"
+    },
+    {
+      "Name": "lahua",
+      "Id": "D_PSD_00",
+      "Motion": "Tap#1:lahua"
+    },
+    {
+      "Name": "hua1",
+      "Id": "D_PSD_02",
+      "Motion": "Tap#1:hua1"
+    },
+    {
+      "Name": "yaotou1",
+      "Id": "D_PSD_372",
+      "Motion": "Tap#1:yaotou"
+    },
+    {
+      "Name": "yaotou2",
+      "Id": "D_PSD_369",
+      "Motion": "Tap#1:yaotou"
+    },
+    {
+      "Name": "gouwudai",
+      "Id": "D_PSD_145",
+      "Motion": "Tap#1:gouwudai"
+    },
+    {
+      "Name": "weixiao",
+      "Id": "D_PSD_42",
+      "Motion": "Tap#1:weixiao"
+    },
+    {
+      "Name": "jingxiu",
+      "Id": "D_PSD_12",
+      "Motion": "Tap#1:jingxiu"
+    },
+    {
+      "Name": "jingya1",
+      "Id": "D_PSD_82",
+      "Motion": "Tap#1:jingya"
+    },
+    {
+      "Name": "jingya2",
+      "Id": "D_PSD_37",
+      "Motion": "Tap#1:jingya"
+    }
+  ],
+  "Options": {}
+}
